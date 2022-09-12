@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/negara_fragment">
+
+    <fragment
+        android:id="@+id/negara_fragment"
+        android:name="com.example.wereldapps.ui.negara.NegaraFragment"
+        android:label="Negara Page"
+        tools:layout="@layout/fragment_negara" />
+    <fragment
+        android:id="@+id/travel_fragment"
+        android:name="com.example.wereldapps.ui.travel.TravelFragment"
+        android:label="Travel Page"
+        tools:layout="@layout/fragment_travel" />
+</navigation>
