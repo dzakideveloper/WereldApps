@@ -3,6 +3,7 @@ package com.example.wereldapps.ui.detail
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
+import com.example.wereldapps.R
 import com.example.wereldapps.data.response.TravelResponseItem
 import com.example.wereldapps.databinding.ActivityDetailTravelBinding
 
@@ -25,6 +26,9 @@ class DetailTravelActivity : AppCompatActivity() {
                 .load(data?.image)
                 .into(ivDetailTraval)
             tvTitleDetailTravel.text = data?.title
+            tvLoc.text = data?.lokasi
+            tvRate.text = data?.rating
+            tvDesc.text = data?.deskripsi
         }
     }
 

@@ -24,8 +24,9 @@ class DetailNegaraActivity : AppCompatActivity() {
         binding.apply {
             Glide.with(this@DetailNegaraActivity)
                 .load(data?.image)
-                .into(ivDetailNegara)
-            tvTitleDetailNegara.text = data?.title
+                .into(ivDetailCountry)
+            tvTitleDetailCountry.text = data?.title
+            tvDesc.text = data?.description
         }
     }
 

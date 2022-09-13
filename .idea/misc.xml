@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/font/font_quicksand.xml" value="0.2462962962962963" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.23076923076923078" />
         <entry key="app/src/main/res/layout/activity_detail_negara.xml" value="0.234375" />
-        <entry key="app/src/main/res/layout/activity_detail_travel.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/activity_detail_travel.xml" value="0.2880290737564671" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/activity_negara_detail.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/app_bar.xml" value="0.234375" />
