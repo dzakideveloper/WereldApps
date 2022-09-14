@@ -17,9 +17,10 @@ class DetailNegaraActivity : AppCompatActivity() {
         _binding = ActivityDetailNegaraBinding.inflate(layoutInflater)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(binding.root)
-        title = "Detail Page"
 
         val data = intent.getParcelableExtra<NegaraResponseItem>(EXTRA_DATA)
+
+        title = data?.title
 
         binding.apply {
             Glide.with(this@DetailNegaraActivity)

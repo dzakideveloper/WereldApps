@@ -17,9 +17,10 @@ class DetailTravelActivity : AppCompatActivity() {
         _binding = ActivityDetailTravelBinding.inflate(layoutInflater)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(binding.root)
-        title = "Detail Page"
 
         val data = intent.getParcelableExtra<TravelResponseItem>(EXTRA_DATA)
+
+        title = data?.title
 
         binding.apply {
             Glide.with(this@DetailTravelActivity)

@@ -12,6 +12,7 @@ import com.example.wereldapps.data.response.TravelResponseItem
 import com.example.wereldapps.databinding.FragmentTravelBinding
 import com.example.wereldapps.ui.detail.DetailTravelActivity
 import com.example.wereldapps.utils.OnItemClickCallbackTravel
+import kotlinx.coroutines.delay
 
 class TravelFragment : Fragment() {
 

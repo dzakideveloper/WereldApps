@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.travel.TravelFragment"
-    android:padding="15dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.travel.TravelFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/rv_travel"
-        tools:listitem="@layout/row_item"/>
+        android:layout_height="match_parent">
 
-</FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/shape_kata"
+                android:id="@+id/kata"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="15dp"
+                android:elevation="15dp"
+                app:layout_constraintRight_toRightOf="parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="20dp"
+                    android:text="@string/txt_kata"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-- Jeki --"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/sv_travel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/kata"
+                app:layout_constraintStart_toStartOf="@+id/kata"
+                app:layout_constraintTop_toBottomOf="@id/kata" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_travel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintEnd_toEndOf="@+id/sv_travel"
+                app:layout_constraintStart_toStartOf="@+id/sv_travel"
+                app:layout_constraintTop_toBottomOf="@id/sv_travel"
+                tools:listitem="@layout/row_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
