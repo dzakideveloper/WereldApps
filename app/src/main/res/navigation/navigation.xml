@@ -15,4 +15,9 @@
         android:name="com.example.wereldapps.ui.travel.TravelFragment"
         android:label="Travel Page"
         tools:layout="@layout/fragment_travel" />
+    <fragment
+        android:id="@+id/indo_fragment"
+        android:name="com.example.wereldapps.ui.indo.IndonesiaFragment"
+        android:label="Indonesia Page"
+        tools:layout="@layout/fragment_indonesia" />
 </navigation>

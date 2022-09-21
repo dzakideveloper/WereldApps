@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/shape_kata.xml" value="0.1" />
         <entry key="app/src/main/res/font/font_quicksand.xml" value="0.2462962962962963" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.23076923076923078" />
+        <entry key="app/src/main/res/layout/activity_detail_indo.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/activity_detail_negara.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/activity_detail_travel.xml" value="0.2880290737564671" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28048248291015626" />
@@ -15,9 +16,11 @@
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2187347412109375" />
         <entry key="app/src/main/res/layout/app_bar.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/fragment_indonesia.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_negara.xml" value="0.234375" />
-        <entry key="app/src/main/res/layout/fragment_travel.xml" value="0.1635131835937499" />
+        <entry key="app/src/main/res/layout/fragment_travel.xml" value="0.25" />
         <entry key="app/src/main/res/layout/header_draw.xml" value="0.34054054054054056" />
+        <entry key="app/src/main/res/layout/row_indo.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/row_item.xml" value="0.234375" />
         <entry key="app/src/main/res/menu/drawer.xml" value="0.7908203125000001" />
         <entry key="app/src/main/res/menu/menu_action.xml" value="0.234375" />

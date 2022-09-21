@@ -10,6 +10,9 @@
         <item android:id="@+id/negara_fragment"
             android:icon="@drawable/earth"
             android:title="Negara Page" />
+        <item android:id="@+id/indo_fragment"
+            android:icon="@drawable/pp"
+            android:title="Indonesia Page" />
     </group>
 
 </menu>
